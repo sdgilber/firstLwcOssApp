@@ -3,11 +3,11 @@
 }
 .link {
     border: none;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 1.5rem;
+    border-radius: .75rem;
     text-decoration: none;
-    background-color: #ff6000;
-    color: white;
+    background-color:blue;
+    color:red;
     margin-left: 33%;
     margin-right: 33%;
     display: inline-block;
@@ -15,24 +15,24 @@
 }
 .info {
     color: black;
-    background-color: #e4f2f8;
+    background-color:white;
     margin: auto;
-    padding: 15px 10px;
+    padding: 1.2em;
     text-align: left;
-    width: 300px;
-    border-radius: 5px;
+    width: 30%;
+    border-radius: 0.5em;
 }
 .code {
     font-family: monospace;
 }
 .container {
-    margin-top: 30px;
+    margin-top: 1rem;
 }
 
 img {
-    max-width: 150px;
+    max-width: 25%;
 }
 
 .greeting {
-    height: 75px;
+    height: 10%;
 }
