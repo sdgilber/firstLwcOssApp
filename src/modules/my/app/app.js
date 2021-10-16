@@ -1,3 +1,16 @@
 import { LightningElement } from 'lwc';
+export default class ButtonBasic extends LightningElement 
+{
+    clickedButtonTitle;
 
-export default class App extends LightningElement {}
+    handleClick(event) 
+    {
+        this.clickedButtonTitle = event.target.title;
+    }
+
+    underage = false;
+
+    handleChange(event) {
+        this.underage = event.target.checked;
+    }
+}

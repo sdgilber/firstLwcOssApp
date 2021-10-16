@@ -9,7 +9,7 @@ export default class ButtonBasic extends LightningElement
         this.clickedButtonTitle = event.target.title;
     }
 
-    areDetailsVisible = false;
+    underage = false;
 
     handleChange(event) {
         this.underage = event.target.checked;
