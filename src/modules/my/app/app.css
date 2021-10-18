@@ -1,6 +1,6 @@
-.div{
+div {
     background-color: blue;
-    color:purple;
+    color: purple;
 }
 
 .center {
@@ -9,10 +9,10 @@
 .link {
     border: none;
     padding: 1.5rem;
-    border-radius: .75rem;
+    border-radius: 0.75rem;
     text-decoration: none;
-    background-color:blue;
-    color:red;
+    background-color: blue;
+    color: red;
     margin-left: 33%;
     margin-right: 33%;
     display: inline-block;
@@ -20,7 +20,7 @@
 }
 .info {
     color: black;
-    background-color:yellow;
+    background-color: yellow;
     margin: auto;
     padding: 1.2em;
     text-align: left;

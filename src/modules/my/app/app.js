@@ -1,10 +1,8 @@
 import { LightningElement } from 'lwc';
-export default class ButtonBasic extends LightningElement 
-{
+export default class ButtonBasic extends LightningElement {
     clickedButtonTitle;
 
-    handleClick(event) 
-    {
+    handleClick(event) {
         this.clickedButtonTitle = event.target.title;
     }
 
